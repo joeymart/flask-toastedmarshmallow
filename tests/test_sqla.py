@@ -4,8 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from marshmallow import ValidationError
 from werkzeug.wrappers import Response
 
-from flask_marshmallow import Marshmallow
-from flask_marshmallow.sqla import HyperlinkRelated
+from flask_toastedmarshmallow import Marshmallow
+from flask_toastedmarshmallow.sqla import HyperlinkRelated
 from tests.conftest import Bunch
 
 try:

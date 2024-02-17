@@ -2,7 +2,7 @@
 import pytest
 from flask import Flask
 
-from flask_marshmallow import Marshmallow
+from flask_toastedmarshmallow import Marshmallow
 
 _app = Flask(__name__)
 _app.testing = True

@@ -1,5 +1,5 @@
 """
-    flask_marshmallow.fields
+    flask_toastedmarshmallow.fields
     ~~~~~~~~~~~~~~~~~~~~~~~~
 
     Custom, Flask-specific fields.
@@ -170,7 +170,7 @@ def _url_val(val: typing.Any, key: str, obj: typing.Any, **kwargs):
 
 class Hyperlinks(fields.Field):
     """Field that outputs a dictionary of hyperlinks,
-    given a dictionary schema with :class:`~flask_marshmallow.fields.URLFor`
+    given a dictionary schema with :class:`~flask_toastedmarshmallow.fields.URLFor`
     objects as values.
 
     Example: ::
@@ -190,7 +190,7 @@ class Hyperlinks(fields.Field):
         })
 
     :param dict schema: A dict that maps names to
-        :class:`~flask_marshmallow.fields.URLFor` fields.
+        :class:`~flask_toastedmarshmallow.fields.URLFor` fields.
     """
 
     _CHECK_ATTRIBUTE = False

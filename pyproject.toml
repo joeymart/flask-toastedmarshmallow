@@ -1,12 +1,11 @@
 [project]
-name = "flask-marshmallow"
+name = "flask-toastedmarshmallow"
 version = "1.2.0"
-description = "Flask + marshmallow for beautiful APIs"
+description = "Flask + marshmallow for beautiful APIs, forked to use toastedmarshmallow"
 readme = "README.rst"
 license = { file = "LICENSE" }
 maintainers = [
-  { name = "Steven Loria", email = "sloria1@gmail.com" },
-  { name = "Stephen Rosen", email = "sirosen0@gmail.com" },
+  { name = "Joey Mart", email = "JosefDavidMart@gmail.com" }
 ]
 classifiers = [
   "Environment :: Web Environment",
@@ -22,10 +21,10 @@ classifiers = [
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
 ]
 requires-python = ">=3.8"
-dependencies = ["Flask>=2.2", "marshmallow>=3.0.0"]
+dependencies = ["Flask>=2.2", "toastedmarshmallow>=2.15.2"]
 
 [project.urls]
-Issues = "https://github.com/marshmallow-code/flask-marshmallow/issues"
+Issues = "https://github.com/joeymart/flask-toastedmarshmallow/issues"
 Funding = "https://opencollective.com/marshmallow"
 
 [project.optional-dependencies]
@@ -34,9 +33,9 @@ docs = [
   "Sphinx==7.2.6",
   "sphinx-issues==4.0.0",
 ]
-tests = ["flask-marshmallow[sqlalchemy]", "pytest"]
-dev = ["flask-marshmallow[tests]", "tox", "pre-commit~=3.5"]
-sqlalchemy = ["flask-sqlalchemy>=3.0.0", "marshmallow-sqlalchemy>=0.29.0"]
+tests = ["flask-toastedmarshmallow[sqlalchemy]", "pytest"]
+dev = ["flask-toastedmarshmallow[tests]", "tox", "pre-commit~=3.5"]
+sqlalchemy = ["flask-sqlalchemy>=3.0.0", "toasted-marshmallow-sqlalchemy>=1.0.0"]
 
 [build-system]
 requires = ["flit_core<4"]

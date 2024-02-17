@@ -1,5 +1,5 @@
 """
-    flask_marshmallow
+    flask_toastedmarshmallow
     ~~~~~~~~~~~~~~~~~
 
     Integrates the marshmallow serialization/deserialization library
@@ -69,7 +69,7 @@ class Marshmallow:
 
     The object provides access to the :class:`Schema` class,
     all fields in :mod:`marshmallow.fields`, as well as the Flask-specific
-    fields in :mod:`flask_marshmallow.fields`.
+    fields in :mod:`flask_toastedmarshmallow.fields`.
 
     You can declare schema like so::
 

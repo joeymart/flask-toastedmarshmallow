@@ -1,5 +1,5 @@
 """
-    flask_marshmallow.sqla
+    flask_toastedmarshmallow.sqla
     ~~~~~~~~~~~~~~~~~~~~~~
 
     Integration with Flask-SQLAlchemy and marshmallow-sqlalchemy. Provides
@@ -9,7 +9,7 @@
 """
 from urllib import parse
 
-import marshmallow_sqlalchemy as msqla
+import toasted_marshmallow_sqlalchemy as msqla
 from flask import current_app, url_for
 from marshmallow.exceptions import ValidationError
 

@@ -4,7 +4,7 @@ import pytest
 from marshmallow.exceptions import ValidationError
 from werkzeug.datastructures import FileStorage
 
-from flask_marshmallow import validate
+from flask_toastedmarshmallow import validate
 
 
 @pytest.mark.parametrize("size", ["1 KB", "1 KiB", "1 MB", "1 MiB", "1 GB", "1 GiB"])

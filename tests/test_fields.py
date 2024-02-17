@@ -6,7 +6,7 @@ from marshmallow.exceptions import ValidationError
 from werkzeug.datastructures import FileStorage
 from werkzeug.routing import BuildError
 
-from flask_marshmallow.fields import _tpl
+from flask_toastedmarshmallow.fields import _tpl
 
 
 @pytest.mark.parametrize(

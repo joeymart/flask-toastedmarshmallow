@@ -1,5 +1,5 @@
 """
-    flask_marshmallow.validate
+    flask_toastedmarshmallow.validate
     ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Custom validation classes for various types of data.

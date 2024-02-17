@@ -3,7 +3,7 @@ import json
 from flask import Flask, url_for
 from werkzeug.wrappers import Response
 
-from flask_marshmallow import Marshmallow
+from flask_toastedmarshmallow import Marshmallow
 
 
 def test_deferred_initialization():
